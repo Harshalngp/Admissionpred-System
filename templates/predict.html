@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- As a heading -->
+<nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Prediction System</span>
+        <a href="/" data-toggle="modal" data-target="#exampleModal"><b style="font-size: 20px; color: white;" >&#63;</b></a>
+        <!-- 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                &#63;
+            </button>
+         -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Note</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                    <li><b>If student have chances more than 60% to get admission you will get output like: </b><br>
+                    <b>Ans:</b> Student have maximum chances to get admission.
+                    </li>
+                    &nbsp;&nbsp;&nbsp;
+                    <li><b>If student have chances more than 35% and less than 60% to get admission you will get output like: </b><br>
+                    <b>Ans:</b> Student have good chances to get admission.
+                    </li>
+                    &nbsp;&nbsp;&nbsp;
+                    <li><b>If student have chances less than 35% to get admission you will get output like: </b><br>
+                    <b>Ans:</b> Student have less chances of admission.
+                    </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</nav>
+
+<form class="mx-auto text-center" style="margin-top: 70px" method="POST">
+    {% csrf_token %}
+    <h4>ADMISSION PREDICTION</h4>
+    <div class="mb-3 mt-3">
+        <input class = "mt-5" id = "gre_score" type="text" name="gre_score"  placeholder="GRE Score" required>&nbsp;&nbsp;
+        <input class = "mt-4" id = "university_rating" type="text" name="university_rating" placeholder="University Rating" required>&nbsp;&nbsp;
+        <input class = "mt-4" id = "cgpa" type="text" name="cgpa" placeholder="CGPA" required>&nbsp;&nbsp;
+        <input class = "mt-4" id = "research" type="text" name="research" placeholder="Research" required>&nbsp;&nbsp;<br>
+        <input class = "mt-5" type="submit" name="submit">
+    </div>  
+    {% if messages %}
+        {% for message in messages %}
+            {{message}}
+        {% endfor %}
+    {% endif %}
+
+</form> 
+{% endblock %}
