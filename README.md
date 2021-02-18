@@ -1,6 +1,7 @@
 # Admissionpred-System
 
-![example](https://webmlapp.herokuapp.com/)
+![example](![Screenshot (118)](https://user-images.githubusercontent.com/46785329/108382009-6300f000-722e-11eb-93d1-d05361f6196d.png)
+)
 
 #### Description of your project
 
