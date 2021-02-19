@@ -8,8 +8,6 @@
 - [Built With](#built-with)
 - [Contributing](#contributing)
 - [Get Help](#get-help)
-- [Motivation](#motivation)
-- [Acknowledgments](#acknowledgements)
 
 ## Getting Started
 
