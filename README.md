@@ -13,7 +13,6 @@
 - [Acknowledgments](#acknowledgements)
 
 ## Getting Started
-Describe how to get started here.
 
 ### Install
 ```console
