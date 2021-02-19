@@ -14,22 +14,12 @@
 
 ## Getting Started
 
-### Install
+### Setup
+
+The first thing to do is to clone the repository:
+
 ```console
-npm install your-project
-```
-
-### Usage
-Describe how you use it here.
-```javascript
-import { configure, useProject } from 'your-project';
-
-configure();
-
-const App = () => {
-  const [project, setProject] = useProject();
-  // ... More pseudo code here...
-}
+$ 
 ```
 ## Built With
 
