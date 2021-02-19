@@ -7,7 +7,6 @@
 - [**Getting Started**](#getting-started)
 - [Built With](#built-with)
 - [Contributing](#contributing)
-- [License](#license)
 - [Get Help](#get-help)
 - [Motivation](#motivation)
 - [Acknowledgments](#acknowledgements)
@@ -19,11 +18,18 @@
 The first thing to do is to clone the repository:
 
 ```console
-$ 
+$ https://github.com/Harshalngp/Admissionpred-System.git
 ```
+Create a virtual environment to install dependencies and activate it:
+
+```sh
+$ python -m virtualenv env
+$ cd env/Scripts/activate
+```
+
 ## Built With
 
-Explain which technologies you've used here.
+This is admisssion prediction system for this I used supervised learning algorithm i.e. MLR (Multiple Linear Regression).
 
 ## Contributing
 
@@ -33,12 +39,8 @@ In the case of a bug report, bugfix or a suggestions, please feel very free to o
 #### Pull request
 Pull requests are always welcome, and I'll do my best to do reviews as fast as I can.
 
-## License
-
-This project is licensed under the [MIT License](https://github.com/this/project/blob/master/LICENSE)
-
 ## Get Help
-- Contact me on my-email@email.com
+- Contact me on harshalhiwarkar01@email.com
 - If appropriate, [open an issue](https://github.com/this/project/issues) on GitHub
 
 ## Motivation
