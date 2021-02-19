@@ -29,7 +29,7 @@ $ cd env/Scripts/activate
 
 ## Built With
 
-This is admisssion prediction system for this I used supervised learning algorithm i.e. MLR (Multiple Linear Regression).
+This is the Web application of admission prediction system which is built with supervised learning algorithm i.e MLR (Multiple Linear Regression) & with Django. For this I create a Django app and then deploy Machine Learning algorithm.
 
 ## Contributing
 
@@ -41,12 +41,4 @@ Pull requests are always welcome, and I'll do my best to do reviews as fast as I
 
 ## Get Help
 - Contact me on harshalhiwarkar01@email.com
-- If appropriate, [open an issue](https://github.com/this/project/issues) on GitHub
-
-## Motivation
-Describe your motivation for creating this Open-Source Project
-
-## Acknowledgements
-Acknowledge the Open-Source projects that you've included in your solution.
-
-See this template in use on the Open-Source project [Hue Debugger UI](https://github.com/Silind-Software/Hue-Debugger-UI)
+- If appropriate, [open an issue](https://github.com/Harshalngp/Admissionpred-System/issues) on GitHub
