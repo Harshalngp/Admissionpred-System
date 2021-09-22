@@ -1,6 +1,7 @@
 # Admissionpred-System
 
 ![Screenshot (118)](https://user-images.githubusercontent.com/46785329/108382009-6300f000-722e-11eb-93d1-d05361f6196d.png)
+![Screenshot (233)](https://user-images.githubusercontent.com/46785329/134394564-5c05667e-4ce3-4e4d-bb25-3659d6b0bdc0.png)
 
 ## Table of content
 
