@@ -34,7 +34,7 @@ session operates in a virtual environment set up by `virtualenv`.
 
 ## Built With
 
-This is the Web application of admission prediction system which is built with supervised learning algorithm i.e MLR (Multiple Linear Regression) & with Django. For this I create a Django app and then deploy Machine Learning algorithm.
+This is the Web application of admission prediction system which is built with supervised learning algorithm i.e MLR (Multiple Linear Regression) & PCA (Principal component analysis) & for Deploy this I used Django. With this application user can check whether they are eligible to get admission on top collages for higher studies or not using certain parameters.
 
 ## Contributing
 
